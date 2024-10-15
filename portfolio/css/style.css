@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+}
+
+#main{
+  background: url("../img/bg-1.jpg") center/cover no-repeat fixed;
+  min-height: 100vh;
+  width: 100%;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  background: url("../img/wolf.jpg")center/cover no-repeat;
+  height: 200px;
+  width: 200px;
+}
+
+
+.brandTitle{
+  font-size: 54px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.socailMedia{
+  text-transform: uppercase;
+}
+
+.socailMedia span{
+  font-size: 37px;
+  font-weight: 500;
+}
+.socailMedia {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.mediaLink .btn {
+  padding: 10px 5.2rem;
+  margin: 0 .3rem;
+}
+.iTitle{
+  font-size: 37px;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.iBtn a{
+ text-decoration: none; 
+ color: #fff;
+ font-size: 26px;
+ font-weight: 400;
+}
+.iBtn .bt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services{
+  background: #000;
+  padding: 3.7rem;
+}
+.serviceTitle{
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.serviceName ul li{
+  list-style: none;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+
+}
+#main-location{
+  background: url("../img/cleaning-steam-smoke-pressure.jpg") center/cover no-repeat fixed;
+  min-height: 60vh;
+  width: 100%;
+}
+.dark{
+  background: rgba(0, 0, 0, .7);
+  min-height: 60vh;
+  width: 100%;
+}
+
+.footer{
+  background: #000;
+}
+.footerNumber a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+
+
